@@ -1,0 +1,41 @@
+:root{
+    --back-ground-color:#24353f;
+    --prime-color:#17a2b8;
+}
+.form-control:focus{
+    border-color: var(--prime-color);
+}
+h1{
+    color: var(--prime-color);
+}
+body{
+    background-color: var(--back-ground-color) ;
+    color: white;
+}
+.submit .btn{
+    color: var(--prime-color);
+    border: 1px solid var(--prime-color);
+}
+.submit .btn:hover{
+    background-color: var(--prime-color);
+    color: #fff;
+}
+.newAccount a{
+    text-decoration: none;
+}
+.newAccount a:hover{
+    text-decoration: underline;
+}
+
+::placeholder{
+    color: #b6b6b6 !important;
+}
+.shadow-xlg{
+    box-shadow: 1px 1px 44px 7px rgba(0, 0, 0, 0.7);
+}
+
+.homeContent{
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--prime-color);
+}
